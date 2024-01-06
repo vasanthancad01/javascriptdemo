@@ -151,4 +151,28 @@ var result= f1 > f2;
 console.log(result);
 
 
+//ternary operator 
+var m=36;
+console.log((30<m && m<50) ?"grade C" : (51<m && m>80) ? "grade B" : (81<m && m>100) ? "Distinction" : "No grade");
 
+//function
+/*
+function grades(m,k){
+
+
+var mark=(30<m && m<50) ?"grade C" : (51<m && m>80) ? "grade B" : (81<m && m>100) ? "Distinction" : "No grade");
+console.log(k,mark);
+
+
+}
+grades(25,"karthick");
+*/
+
+//function 
+ var a=(m,k)=>{
+     var mark=(30<m && m<50) ?"grade C" : (51<m && m>80) ? "grade B" : (81<m && m>100) ? "Distinction" : "No grade";
+     console.log(k,mark);
+
+
+ }
+  console.log(a(80,"vasanth"));
