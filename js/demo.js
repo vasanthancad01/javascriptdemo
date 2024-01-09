@@ -203,5 +203,59 @@ grades(25,"karthick");
    }
 
  }
-   employeeidcheck(prompt());
- 
+   //employeeidcheck(prompt());
+
+   //employee team check 
+
+   function employeeidcheck1(m){
+
+    if(0<m && m<10000)
+    {
+        if(1<m && m>500)
+        { 
+       
+          console.log("Production department A");
+   
+        }
+        else if(500<m && m>1000)
+        {
+          console.log("Production department B");
+         
+        }  
+    }
+    else{
+      
+      
+         console.log("not in the list");
+      
+    }
+}
+      //employeeidcheck1(prompt("enter value"));
+
+      //switch case
+
+      function switchcheck(m){
+       switch(m){ 
+           case 'a':
+             console.log("Number obtained");
+             break;
+
+            case 'b':
+             console.log("Number passed");
+             break;
+             
+            case 'c':
+            console.log("Program error");
+            break;
+             
+            default:
+                console.log("Unidentified");
+                
+       }
+
+         }
+         switchcheck(prompt("Type Number"));
+
+
+
+      
