@@ -171,8 +171,37 @@ grades(25,"karthick");
 //function 
  var a=(m,k)=>{
      var mark=(30<m && m<50) ?"grade C" : (51<m && m>80) ? "grade B" : (81<m && m>100) ? "Distinction" : "No grade";
-     console.log(k,mark);
+     return ("k", mark);
 
 
  }
-  console.log(a(80,"vasanth"));
+  
+
+
+ //function callig in variable
+
+ var add=(a,b)=>a+b;
+ console.log(add(5,10));
+
+ //conditional statements 
+
+ function employeeidcheck(m){
+
+   if(0<m && m<1000)
+   {
+    console.log("Production department");
+   }
+   else if(1001<m && m<3000){
+
+    console.log("Service department");
+
+   }
+   else{
+
+    console.log("employee not found");
+
+   }
+
+ }
+   employeeidcheck(prompt());
+ 
