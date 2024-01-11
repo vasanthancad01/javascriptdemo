@@ -226,7 +226,7 @@ grades(25,"karthick");
     else{
       
       
-         console.log("not in the list");
+         //console.log("not in the list");
       
     }
 }
@@ -254,7 +254,60 @@ grades(25,"karthick");
        }
 
          }
-         switchcheck(prompt("Type Number"));
+        // switchcheck(prompt("Type Number"));
+
+         //function checking with switch
+
+         function rollnumadditon(m)
+         {
+             switch(m)
+              {
+                 case 'a':
+                 console.log("CLASS A");
+                 break;
+
+                 case 'b':
+                 console.log("CLASS B");
+                 break;
+
+                 case 'c':
+                 console.log("CLASS C");
+                 break;
+                 
+                 default:
+                console.log("not in list")
+              }
+              }
+            //rollnumadditon(prompt("enter value"));
+              
+
+//post increment operator
+
+function incrementoperator(){
+
+    var a=40;
+    var b=a++;
+    //console.log(a, typeof a);
+    //console.log(b, typeof b);
+}
+              
+incrementoperator();
+
+//pre increment operator 
+
+function preincremetoperator(){
+  var a=40;
+  var b=++a;
+  console.log(a);
+  console.log(b);
+
+
+}
+preincremetoperator();
+
+<
+        
+         
 
 
 
