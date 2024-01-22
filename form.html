@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>User registration form</title>
+</head>
+<style>
+
+
+	.user{
+
+    font-size:50px;
+    font-style: oblique;
+    color:whitesmoke;
+	
+	
+	
+	}
+
+	form{
+		margin-left:50px;
+
+	}
+
+        
+
+    
+    
+
+
+</style>
+<div class="User">
+<body style="color:black;background-color:white">
+     <h1 style="background-color:black; color:white"><b><center><u>Registration Form</u></center></b></h1>
+</div>
+    
+	<label for="Username">User Name:</label><br>
+	<input type="text" id="Username" name="User name"><br>
+	<label for="FirstName">First Name:</label><br>
+	<input type="text"  id="FirstName"  name="Firstname"><br>
+	<label for="Lastname">Last Name:</label><br>
+	<input type="text" id="Lastname"  name="Lastname"><br>
+	<label for="dateofbirth">Date of Birth:</label><br>
+	<input type="date" id="dateofbirth" name="dateofbirth"><br>
+	<label for="gender">Gender:</label><br>
+	<input type="radio" id="gen" value="Male">
+	<label for="Male">Male</label>
+	<input type="radio" id="gen" value="female">
+	<label for="Female">Female</label><br>
+	<label for="qualification">Select Your Qualification:</label><br>
+	<select>
+		 <option>--select--</option>	
+         <option>B.E</option>
+         <option>B.SC</option>
+         <option>12TH</option>
+         <option>10TH</option>
+        
+      </select>
+       <br>
+    <label for="location">Location:</label><br>
+    <input list="location">
+    <datalist id="location">
+    <option value="Trichy">
+    <option value="chennai">
+    </datalist> <br>
+
+   <label for="phonenumber">Phonenumber:</label><br>
+   <input type="tell" id="phonenumber" name="phonenumber"><br>
+
+   <label for="email">Email:</label><br>
+   <input type="email" id="email" name="email"><br>
+   
+
+   <label for="Certificate Upload">Certificate Upload:</label><br>
+   <input type="file" id="Certificate Upload" name="Certificate Upload"><br>
+
+   <label for="Select your House color">Select your House color:</label><br>
+   <input type="color" id="Select your House color" name="Select your House color"><br>
+
+   <label for="address">Address:</label><br>
+   <input type="text" id="address" name="address"><br>
+   <input type="checkbox" id="accept" name="accept">
+   <label for ="accept">I accept all the terms and conditions:</label> <br>
+
+
+   
+   <input type="submit" id="Register" name="Register" value="Register" onclick="loop()">
+
+   
+   <input type="submit" id="Clear" name="Clear" value="Clear" onclick=""><br>
+
+
+   <a href="https://www.w3schools.com/html/html_links.asp">visit w3schools</a>
+
+
+
+
+
+   
+
+
+   
+
+
+
+
+
+
+<center><table border="5px solid black"></center>
+    
+<tr>
+    <td >Username</td>
+    <td>Dateofbirth</td>
+    <td>Gender</td>
+    <td>Location</td>
+    <td>Phonenumber</td>
+    <td>Email</td>
+    <td>Address</td>
+</tr>
+<tr>
+    <td id="uname">Username</td>
+    <td id="dob">Dateofbirth</td>
+    <td id="gen">Gender</td>
+    <td id="loc">Location</td>
+    <td id="phno">Phonenumber</td>
+    <td id="mail">Email</td>
+    <td id="addre">Address</td>
+
+
+</tr>
+<script src="javascriptdemo/demo.js">
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
